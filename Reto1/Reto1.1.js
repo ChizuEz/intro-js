@@ -3,7 +3,7 @@ var Numero1;
 Numero1=prompt('Ingrese la primera cifra:');
 alert("el primer valor ingresado es: " +Numero1)
 
-document.write( +Numero1 * 2);
+console.log( +Numero1 * 2);
 
 
 /* 
