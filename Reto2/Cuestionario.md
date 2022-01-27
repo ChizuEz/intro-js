@@ -89,7 +89,7 @@ var sport;
 sport === undefined
 ```
 
-> _tu respuesta_: Porque ese var daria indefinido verdadero
+> _tu respuesta_: True porque ese var daria indefinido verdadero
 
 > _resultado en la consola_: true
 
