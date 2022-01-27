@@ -25,7 +25,7 @@ typeof(3)
 typeof(3) === typeof("3")
 ```
 
-> _tu respuesta_: Falso porque esta entre
+> _tu respuesta_: Falso porque esta entre ""
 
 > _resultado en la consola_: false
 
