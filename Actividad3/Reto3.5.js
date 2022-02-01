@@ -1,3 +1,7 @@
+//Solicitar al usuario que ingrese tres numeros y mostrar cual de los tres es el numero mayor. Considerar
+//el caso en que 2 numeros sean iguales
+
+
 const numA = parseFloat(prompt("Ingrese número A"))
 const numB = parseFloat(prompt("Ingrese número B"))
 const numC = parseFloat(prompt("Ingrese número C"))

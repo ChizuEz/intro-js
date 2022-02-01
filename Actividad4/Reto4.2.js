@@ -1,3 +1,5 @@
+// Crea el mismo problema que el anterior pero usando Do While
+
 var num = parseInt(prompt("Ingrese un numero: "));
 var contador = 1;
 

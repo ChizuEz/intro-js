@@ -1,3 +1,6 @@
+//Solicitar al usuario que ingrese dos numeros y mostrar cual de los dos es menos. No considerar el caso en que ambos
+//numeros son iguales
+
 var Numero1
 Numero1=prompt('Ingrese la primera cifra:')
 
@@ -9,6 +12,11 @@ if (+Numero1 > +Numero2){
 }else{
     alert(Numero1 + " es menor que " + Numero2)
 }
+
+
+
+
+
 
 
 
