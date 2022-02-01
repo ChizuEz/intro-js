@@ -1,15 +1,26 @@
-var Numero1
-Numero1=prompt("Ingrese la primera cifra:","")
+const numA = parseFloat(prompt("Ingrese número A"))
+const numB = parseFloat(prompt("Ingrese número B"))
+const numC = parseFloat(prompt("Ingrese número C"))
 
-var Numero2
-Numero2=prompt("Ingrese la segunda cifra:","")
 
-Var Numero3
-Numero3=prompt("Ingrese la tercera cifra:","")
-
-if (+Numero1 >= +Numero2 && +Numero1 => +Num3){
-    alert(Numero1 + " es mayor que " + Numero2 " y " + Numero3)
+if (numA === numB && numA === numC) {
+  alert("Todos los numeros son iguales")
+}else if(numA > numB){ 
+  if(numA > numC){
+    alert("El número A " + numA + " es el mayor")
+  } else if(numC > numA){
+    alert("El número C " + numC + " es el mayor")
+  } else{
+    alert("El número A y el número C son iguales", numA, numC)
+  }
+} else if(numB > numA){
+  if(numB > numC){
+    alert("El número B " + numB + " es el mayor")
+  } else if(numC > numB){
+    alert("El número C " + numC + " es el mayor")
+  }else {
+    alert("El número B y el C son iguales", numB, numC)
+  }
+} else { 
+  alert("El número B y el A son iguales", numA, numB)
 }
-
-
-// Sinceramente no logre hacer la 5 
