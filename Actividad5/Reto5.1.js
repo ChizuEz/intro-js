@@ -13,7 +13,7 @@ array.sort(function(a, b){return a-b}) // ordenar los elementos de mayor a menor
     console.log(array[contador])
     }
   
-//solucion segun la profe:
+//solucion mas sencilla y rapida por la profe:
 
 var arreglo = [1,4,6,10,22,55,46,2,5,0]
 
