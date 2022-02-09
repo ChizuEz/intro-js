@@ -14,7 +14,7 @@
         age: 34,
         job: "engineer",
         hobbies: ['Sky', 'football', 'walking my dog']
-    };
+    }
     
-    student['pet'] = "cat";
-    console.log(student);
+    student['pet'] = "dog"
+    console.log(student)

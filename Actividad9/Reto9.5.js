@@ -16,7 +16,7 @@ var student = {
     age: 34,
     job: "engineer",
     hobbies: ['Sky', 'football', 'walking my dog']
-};
+}
 
-student.age = 35;
-console.log(student);
+student.age = 35
+console.log(student)

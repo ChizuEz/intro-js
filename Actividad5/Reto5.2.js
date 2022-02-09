@@ -8,4 +8,4 @@ var contador = 0
 while (!(array.length == 5)) {
     array.push(contador++)
 }
-console.log(array)
+console.log(array) 
