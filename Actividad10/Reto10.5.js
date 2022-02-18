@@ -11,10 +11,36 @@
   */
 
 
+ var animales = ['Lobo', 'Pato', 'Mapache', 'Mantis', 'Perro', 'Zorro'];
+ var Array1 = animales.slice(0,3)
+ var Array2 = animales.slice(-3)
+ var arrayRevertido = []
+ console.log(Array1)
+ console.log(Array2)
+ 
+ const revertir = (array) => {
+     for (var i = 0; i < array.length / 2; i++) {
+         let Moment = array[i]
+         let other = array.length - i -1
+         array[i] = array[other]
+         array[other] = Moment
+         return Moment
+     }
+ }
 
-// No lo logre hacer 
-
-
+ const ArrayRevert = (array) =>{
+     for (var i = 0; i < array.length / 2; i++) {
+         let Moment = array[i]
+         let other = array.length - i -1
+         array[i] = array[other]
+         array[other] = Moment
+     }
+ }
+ 
+ revertir(animales)
+ console.log("Invertir" , animales)
+ ArrayRevert(revertir(animales))
+ console.log("Posicion" , animales)
 
 
 
